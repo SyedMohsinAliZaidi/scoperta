@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  --scoperta-navy: #101D32;
+  --scoperta-teal: #16B8A6;
+  --scoperta-white: #F5F8FC;
+  --scoperta-slate: #26364B;
+  --scoperta-muted: #64748B;
+  --scoperta-border: #E2EAF2;
+  --font-body: 'Inter', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  --radius-card: 12px;
+  --radius-button: 8px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--scoperta-white);
+  color: var(--scoperta-navy);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.brand-accent {
+  color: var(--scoperta-teal);
+}
+
+.bg-navy { background-color: var(--scoperta-navy); }
+.bg-teal-custom { background-color: var(--scoperta-teal); }
+.text-navy { color: var(--scoperta-navy); }
+.text-teal-custom { color: var(--scoperta-teal); }
+.border-scoperta { border-color: var(--scoperta-border); }

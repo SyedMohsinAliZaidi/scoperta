@@ -1,0 +1,11 @@
+<svg width="180" height="40" viewBox="0 0 180 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Abstract magnifying lens + central spark -->
+  <circle cx="20" cy="20" r="12" stroke="#16B8A6" stroke-width="3" fill="none" />
+  <line x1="28" y1="28" x2="36" y2="36" stroke="#16B8A6" stroke-width="3" stroke-linecap="round" />
+  <circle cx="20" cy="20" r="4" fill="#16B8A6" />
+  <path d="M24 12L26 16L30 18L26 20L24 24L22 20L18 18L22 16L24 12Z" fill="#16B8A6" />
+  
+  <!-- Wordmark -->
+  <text x="48" y="26" font-family="&#39;Space Grotesk&#39;, sans-serif" font-weight="700" font-size="20" fill="#101D32" letter-spacing="1">SCOPERTA</text>
+  <circle cx="168" cy="23" r="3" fill="#16B8A6" />
+</svg>
